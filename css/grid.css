@@ -3,3 +3,17 @@
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 0px;
 }
+
+.grid-2g{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+
+@media (max-width: 550px){
+    .grid-2g{
+        grid-template-columns: 1fr;
+    }
+}
+
