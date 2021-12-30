@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/a.PNG">
+    <title>Portafolio web - Alan Yaelt Hernandez</title>
+    <!-- estilos bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+    />
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+    ></script>
+    <!-- github bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- estilos personalizados -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="is-light-mode">
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light cont-menu">
+        <div class="container-fluid col-md-6 offset-md-4">
+        <a class="navbar-brand" href="#"><i class="bi bi-circle"></i> Alan Hernández</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Alamns" target="_blank"><i class="bi bi-github"> </i>Source</a>
+            </li>
+            <li class="nav-item list-switch">
+                <input type="checkbox" class="checkbox" name="" id="checkbox">
+                <label  class="switch" for="checkbox"></label>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- contenido -->
+    <div class="container">
+        <div class="cont-img">
+            <img class="imagen-main pt-5 mt-5 pb-5 mb-5" src="./img/circulos.png" alt="imagen-circulos">
+        </div>
+        <article>
+            <div class="greeting">Hola, soy un desarrollador frontend actualmente en México!</div>
+            <div class="grid-2 my-name-image">
+                <div class="cont-name">
+                    <h2 class="full-name">Alan Yaelt Herández López</h2>
+                </div>
+                <div class="">
+                    <img alt="perfil" src="./img/foto.jpg" class="my-image">
+                </div>
+            </div>
+            <div class="pt-5 pb-4">
+                <h3>Un poco sobre mí</h3>
+                <p>Egresado del Intituto Tecnologico de Pachuca en el 2020, actualmente me encuentro en Pachuca de Soto y trabajo como desarrollador web, principalemnte realizo sitios web para negocios. Considero que una parte importante en este sector es la planificacion, el dialogo y el constante aprendizaje.</p>
+            </div>
+            <!-- 
+            <div class="text-center pt-3 pb-4">
+                <button type="button" class="btn btn-info">Mi portafolio <i class="bi bi-chevron-right"></i></button>
+            </div>                
+            -->
+            <div class="social-network">
+                <h3>Redes sociales</h3>
+                <ul class="list-social-network">
+                    <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/alan-hernandez-050201204" >@Alan Hernandez</a></li>
+                    <li><i class="bi bi-twitter"></i> <a href="">@Alamns-HL</a></li>
+                    <li><i class="bi bi-instagram"></i> <a href="">@Ahlamns.ra</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="grid-2 cont-cards pt-4">
+                    <div class="card border-card" style="width: 15rem;">
+                        <img src="./img/cards/soluh.png" class="card-img-top" alt="...">
+                        <div class="card-body color-body-card">
+                            <p class="card-text">Pagina web de la aplicación SOLUH para administraccion de fraccionamientos.</p>
+                        </div>
+                    </div>
+                    <div class="card border-card" style="width: 15rem;">
+                        <img src="./img/cards/regla3.png" class="card-img-top" alt="...">
+                        <div class="card-body color-body-card">
+                            <p class="card-text">Aplicación de operaciones simples para cobro en pesos o kilogramos desarrollada en angular para funcionar como PWA.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-2 cont-cards pt-4">
+                    <div class="card border-card" style="width: 15rem;">
+                        <img src="./img/cards/ferrelvalle.png" class="card-img-top" alt="...">
+                        <div class="card-body color-body-card">
+                            <p class="card-text">Página web de ferreteria con secciones propias para el negocio y su control de servicio de baterias para automóviles.</p>
+                        </div>
+                    </div>
+                    <div class="card border-card" style="width: 15rem;">
+                        <img src="./img/cards/Punto_de_venta.png" class="card-img-top" alt="...">
+                        <div class="card-body color-body-card">
+                            <p class="card-text">Sistema de punto de venta como aplicación web, con panel para controlar promociones de productos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-4 mt-3">
+                <h1 class="contacto">Contacto</h1>
+                <div class="text-center pt-4">
+                    <a href="mailto:alan.yaelt.hl@gmail.com">
+                        <h3 class="correo">alan.yaelt.hl@gmail.com</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="footer pt-5 text-center">
+                <p class="p-footer">© 2021 Alan Hernandez. All Rights Reserved.</p>
+            </div>
+        </article>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

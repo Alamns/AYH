@@ -1,0 +1,15 @@
+html{
+    --fondo: rgb(240, 231, 219);
+    --leter-color: #424242;
+    --nav-menu: rgba(255, 255, 255, 0.25);;
+    --greeting: rgba(255, 255, 255, .36);
+    --claro: rgba(255, 255, 255, .8);
+    --pink: #eb4fd5;
+    --dark-blue: #3777d5;
+    --sky-blue: #89ddd7;
+    --a-ref: grey;
+
+    /* colors dark mode */
+    --fondo-dark: rgb(32, 32, 35);
+    --leter-color-dark: white;
+}
