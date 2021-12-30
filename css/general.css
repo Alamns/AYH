@@ -132,9 +132,14 @@ a{
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark){
-    body{
-        background: var(--fondo-dark);
+    /* body{
+        background: red;
         color: var(--leter-color-dark);
+    } */
+
+    .is-light-mode{
+        background: rgb(32, 32, 35);
+        color:  var(--leter-color-dark);
     }
 
     .navbar-light .navbar-nav .nav-link{
@@ -143,6 +148,10 @@ a{
 
     .navbar-light .navbar-brand{
         color: var(--leter-color-dark);
+    }
+
+    .color-body-card{
+        background-color: var(--fondo-dark);
     }
 }
 
