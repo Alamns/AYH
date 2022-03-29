@@ -22,7 +22,7 @@
 }
 
 .imagen-main{
-    width: 200px;
+    width: 150px;
     /* transform: rotate(-10deg); */
     animation: rotation 5s infinite linear;
     user-select: none;
